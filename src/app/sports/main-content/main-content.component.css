@@ -1,0 +1,43 @@
+
+
+
+.arrow-tabs:checked ~ .sport10 {
+    margin-left: 0%;
+}
+.arrow-tabs:checked ~ .sport10 {
+    margin-left: -20%;
+}
+.arrow-tabs:checked ~ .sport10 {
+    margin-left: -40%;
+}
+
+.arrow-tabs:checked ~ .sport10 {
+    margin-left: -60%; 
+}
+
+/* .hooper-track {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation:scrolling 28s linear infinite ;
+} */
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(-3vw);
+    }
+    100% {
+        transform: translateX(-180vw);
+    }
+
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+
+
+.carousal-63 img{
+    width: 100%;
+}
